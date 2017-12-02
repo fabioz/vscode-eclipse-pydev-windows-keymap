@@ -21,8 +21,16 @@ Keyboard shortcuts defined here try to follow Eclipse/PyDev on Windows as close 
 
 - Shift+Alt+A cannot be used to rectangular selection because VsCode doesn't really have a start/begin mode for rectangular select and it's not possible to do "shift+alt+a+down" as a single command, as that'd be 2 keystrokes (so, it was kept as the default "ctrl+shift+alt+arrow keys).
 
+## Conflicts with Visual Studio Code
+
+This extension tries to go with the Eclipse/PyDev keybindings when there's any conflict, so, a number of keys from VSCode may no longer be available.
+
+For instance:
+
+- Ctrl+K: this works as a find for Eclipse and is actually a qualifier for many other bindings in VSCode. Some are lost and some have been rebinded to the Eclipse flavor.
+
+i.e.: Ctrl+K, Ctrl+K to open keybindings is Ctrl+Shift+L, Ctrl+Shift+L in Eclipse.
+
 ## Release Notes
 
-See CHANGELOG.md for information on releases.
-
-## Keybindings mapped
+See [CHANGELOG.md](CHANGELOG.md) for information on releases.
