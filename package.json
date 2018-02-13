@@ -2,7 +2,7 @@
     "name": "vscode-eclipse-pydev-windows-keymap",
     "displayName": "Eclipse/PyDev Windows Keymap",
     "description": "Keymap from Eclipse on Windows with PyDev extensions.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "fabioz",
     "engines": {
         "vscode": "^1.18.0"
@@ -151,6 +151,16 @@
                 "key": "ctrl+1",
                 "command": "editor.action.quickFix",
                 "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+.",
+                "command": "editor.action.marker.next",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+shift+.",
+                "command": "editor.action.marker.prev",
+                "when": "editorTextFocus"
             },
             {
                 "key": "ctrl+f7",

@@ -34,3 +34,11 @@ i.e.: Ctrl+K, Ctrl+K to open keybindings is Ctrl+Shift+L, Ctrl+Shift+L in Eclips
 ## Release Notes
 
 See [CHANGELOG.md](CHANGELOG.md) for information on releases.
+
+## Developing
+
+For any changes, just submit a pull request.
+
+For releasing, increase version number and use `vsce package` to create .vsix and test locally
+and then use `vsce publish` to publish it
+(see https://code.visualstudio.com/docs/extensions/publish-extension for more info).
