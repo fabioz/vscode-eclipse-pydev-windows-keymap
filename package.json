@@ -2,7 +2,7 @@
     "name": "vscode-eclipse-pydev-windows-keymap",
     "displayName": "Eclipse/PyDev Windows Keymap",
     "description": "Keymap from Eclipse on Windows with PyDev extensions.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "fabioz",
     "engines": {
         "vscode": "^1.18.0"
